@@ -1,0 +1,8 @@
+{
+  "name": "المحاسب البسيط",
+  "description": "تطبيق محاسبة بسيط وسهل لإدارة الإيرادات، المصروفات، الأرباح، والديون وطباعة سندات القبض والصرف.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

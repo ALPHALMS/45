@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Cairo', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  /* Hide UI elements during printing except the modal target */
+  header, #summary-cards, #analytics-section, #transactions-section, #app-tabs {
+    display: none !important;
+  }
+}
